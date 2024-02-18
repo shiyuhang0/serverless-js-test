@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@shiyuhang0/serverless": "0.0.11-beta1",
+    "@tidbcloud/serverless": "0.0.11-beta1",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
