@@ -10,5 +10,6 @@ export async function GET(request: NextRequest) {
     debug: true
   })
   const result = await conn.execute("show databases",null, {debug: true});
+  console.log(result)
   return NextResponse.json({result});
 }
